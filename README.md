@@ -16,7 +16,7 @@ This project aims for the implementation of CICD and GitOps for web applications
 
 ## Project Brief:
 > This project aims to guide the process of automatic deployment of a web application on the Kubernetes cluster over the Apache Tomcat web server.
-
+![Alt text](https://47627754-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2FQ2eA6wdhFG1vJALtBXmC%2Fuploads%2FrN5j1WL1Nvw4FVuPq3NE%2Fimage.png?alt=media&token=5720c50c-a2fa-4ff4-9a2f-a05c34fd01f6)
 1. You can use any of the code as you can get many on the internet or use the same code that I used through the GitHub repo.
 2. Initially, developer will commit the code to GitHub repository, GitHub will trigger the code changes to Jenkins pipeline.
 3. Jenkins pipeline will be configured with the SonarQube which will Continuously Inspect the code for bugs, code smells, and security vulnerabilities through defined quality gates.

@@ -6,7 +6,7 @@ This project aims for the implementation of CICD and GitOps for web applications
 2. Basics of Jenkins pipeline syntax.
 3. Basic understanding of various DevOps tools like SonarQube, Maven, Docker, Kubernetes and Argo CD.
 
-Tools used:
+##Tools used:
 1. Jenkins
 2. SonarQube
 3. Maven
@@ -14,7 +14,7 @@ Tools used:
 5. Kubernetes
 6. Argo CD
 
-Project Brief:
+## Project Brief:
 * This project aims to guide the process of automatic deployment of a web application on the Kubernetes cluster over the Apache Tomcat web server.
 
 1. You can use any of the code as you can get many on the internet or use the same code that I used through the GitHub repo.

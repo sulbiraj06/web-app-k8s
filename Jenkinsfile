@@ -2,6 +2,9 @@ pipeline {
     agent any
     stages {
         stage ('Code build and Static Code Analysis'){
+            environment {
+                SONAR_URL = "http://65.2.142.45/:9000"
+            }
             agent {
                 docker {
                     image 'maven'
@@ -10,9 +13,9 @@ pipeline {
             }
             steps {
                 script {
-                    withSonarQubeEnv('Sonar-server') {
-                        sh "mvn sonar:sonar"
-                    }
+                    withCredentials([string(credentialsId: 'sonarqube-token', variable: 'SONAR_AUTH_TOKEN')]) {
+                    sh 'mvn sonar:sonar -Dsonar.login=$SONAR_AUTH_TOKEN -Dsonar.host.url=${SONAR_URL}'
+                }
                     timeout(time: 1, unit: 'HOURS') {
                         def qg = waitForQualityGate()
                         if (qg.status != 'OK') {

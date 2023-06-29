@@ -15,7 +15,7 @@ Tools used:
 6. Argo CD
 
 Project Brief:
-This project aims to guide the process of automatic deployment of a web application on the Kubernetes cluster over the Apache Tomcat web server.
+* This project aims to guide the process of automatic deployment of a web application on the Kubernetes cluster over the Apache Tomcat web server.
 
 1. You can use any of the code as you can get many on the internet or use the same code that I used through the GitHub repo.
 2. Initially, developer will commit the code to GitHub repository, GitHub will trigger the code changes to Jenkins pipeline.

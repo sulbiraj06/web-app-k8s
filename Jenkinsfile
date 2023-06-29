@@ -10,7 +10,7 @@ pipeline {
             }
             steps {
                 script {
-                    withSonarQubeEnv(credentialsId: 'sonar-api-key') {
+                    withSonarQubeEnv('Sonar-server') {
                         sh "mvn sonar:sonar"
                     }
                     timeout(time: 1, unit: 'HOURS') {

@@ -3,7 +3,7 @@ pipeline {
     stages {
         stage ('Code build and Static Code Analysis'){
             environment {
-                SONAR_URL = "http://65.2.142.45/:9000"
+                SONAR_URL = "http://65.2.142.45:9000"
             }
             agent {
                 docker {

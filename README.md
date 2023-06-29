@@ -2,9 +2,10 @@
 This project aims for the implementation of CICD and GitOps for web applications using a range of DevOps tools including Git, Jenkins, SonarQube, Maven, Docker, Kubernetes and  Argo CD.
 
 Prerequisites:
-General knowledge of server/instance creation on any cloud i.e., AWS, GCP, Azure, Oracle.
-Basics of Jenkins pipeline syntax.
-Basic understanding of various DevOps tools like SonarQube, Maven, Docker, Kubernetes and Argo CD.
+1. General knowledge of server/instance creation on any cloud i.e., AWS, GCP, Azure, Oracle.
+2. Basics of Jenkins pipeline syntax.
+3. Basic understanding of various DevOps tools like SonarQube, Maven, Docker, Kubernetes and Argo CD.
+
 Tools used:
 Jenkins
 SonarQube
@@ -12,6 +13,7 @@ Maven
 Docker
 Kubernetes
 Argo CD
+
 Project Brief:
 This project aims to guide the process of automatic deployment of a web application on the Kubernetes cluster over the Apache Tomcat web server.
 

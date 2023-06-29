@@ -1,7 +1,7 @@
 # web-app-k8s
 This project aims for the implementation of CICD and GitOps for web applications using a range of DevOps tools including Git, Jenkins, SonarQube, Maven, Docker, Kubernetes and  Argo CD.
 
-Prerequisites:
+## Prerequisites:
 1. General knowledge of server/instance creation on any cloud i.e., AWS, GCP, Azure, Oracle.
 2. Basics of Jenkins pipeline syntax.
 3. Basic understanding of various DevOps tools like SonarQube, Maven, Docker, Kubernetes and Argo CD.
